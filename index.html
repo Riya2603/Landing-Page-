@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="wrapper w-full h-[100vh]">
+
+        <header>
+
+            <div class="bar w-full h-[60px] flex justify-around justify-center items-center ">
+
+                <div class="select-none flex items-center justify-center logosection ">
+                    <img src="./images/Yoga.png" width="100vh" height="100vh" alt="">
+                    <p class="text-[20px] -ml-[15px] -mt-[15px]  pl-[15px]  font-bold">AsanaYog</p>
+                </div>
+
+                <div>
+                    <ul class="list flex gap-11">
+                        <a href="#About">About </a>
+                        <a href="#Learnings">Learnings</a>
+                        <a href="#subs">Contact </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="Intro"></div>
+            <div class=" mt-[100px] content w-full ">
+
+                <div class=" introduction flex flex-col items-center justify-center mt-[50px]">
+                    <img class="FrontAsan" src="./images/Asan3.jpg" alt="">
+                    <div class="flex items-center justify-center">
+                        <p class=" w-500px [20px] -ml-[35px]  pl-[50px] font-bold About">Yoga fosters wealth and
+                            happiness,
+                            <br>which promotes a healthy lifestyle !!!</br>
+                        </p>
+                    </div>
+
+                    <div class="text-[30px] mt-[30px] ml-[5px] font-bold desc">Do you want to discover how yoga can
+                        affect your way of life?</div>
+
+                    <div class=" intro-desc ">
+                        <p>By fostering a mind-body connection, reducing stress, enhancing mental clarity, promoting
+                            emotional balance, improving sleep,
+                            fostering a healthy lifestyle, encouraging self-reflection and personal growth, and
+                            cultivating positive traits like compassion and kindness,
+                            practicing yoga can have a positive impact on your way of life.</p>
+                    </div>
+                </div>
+                <div class="w-full Emptydiv"></div>
+            </div>
+
+            <!-- Learning Section -->
+            <div class="LearningSection"></div>
+            <div class="flex flex-wrap justify-around justify-center itmes-center">
+
+                <div class="max-w-[500px] flex flex-col justify-center items-center asan-dese">
+                    <div>
+                        <p class=" font-semibold">Amplify</p>
+                    </div>
+                    <div>
+                        <p class=" text-[25px] mt-[30px] learnMore">Asanas, or yoga postures, amplify the body's
+                            vitality, flexibility, and strength.
+                            Through deliberate movements and stretches, they amplify physical wellness, opening pathways
+                            for energy to flow, enhancing balance, and fostering a connection between body and mind.</p>
+                    </div>
+                    <div class=" text-[25px] mt-[30px] learnMoreBtn"><a href="">Learn More</a> -> </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <img src="./images/asana.webp" width="600px" height="600px" alt="">
+                </div>
+
+            </div>
+
+            <div class="LearningSection"></div>
+            <div class="features-1 flex flex-wrap justify-around justify-center itmes-center">
+
+                <div class="flex justify-center items-center">
+                    <img src="./images/Meditate.avif" width="600px" height="600px" alt="">
+                </div>
+
+                <div class="max-w-[500px] flex flex-col justify-center items-center asan-dese">
+                    <div>
+                        <p class=" font-semibold"> Fortify</p>
+                    </div>
+                    <div>
+                        <p class=" text-[25px] mt-[30px] learnMore"> Meditation fortifies the mind, acting as a
+                            sanctuary where thoughts and emotions
+                            are observed and understood. This mental strengthening cultivates resilience, clarity,
+                            and emotional equilibrium, fortifying one's inner landscape and fostering a sense of
+                            serenity</p>
+                    </div>
+                    <div class=" text-[25px] mt-[30px] learnMoreBtn"><a class="anch" href="">Learn More</a> -> </div>
+
+                </div>
+
+            </div>
+
+            <div class="LearningSection"></div>
+            <div class="features-1 flex flex-wrap justify-around justify-center itmes-center">
+
+                <div class="max-w-[500px] flex flex-col justify-center items-center asan-dese">
+                    <div>
+                        <p class=" font-semibold">Balance </p>
+                    </div>
+                    <div>
+                        <p class=" text-[25px] mt-[30px] learnMore">Pranayama, the art of breath control, balances the
+                            life force within.
+                            Just as the breath ebbs and flows, pranayama seeks equilibrium, harmonizing the rhythms of
+                            inhalation and exhalation.
+                            This balance extends beyond the physical realm, aligning the body's energy and calming the
+                            mind.</p>
+                    </div>
+                    <div class=" text-[25px] mt-[30px] learnMoreBtn"><a class="anch" href="">Learn More</a> -> </div>
+
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <img src="./images/para.jpg" width="600px" height="600px" border-rounded alt="">
+                </div>
+
+            </div>
+
+            <div class="w-full Emptydiv"></div>
+            <!-- Contact Section -->
+
+            <div class="contactus-form-container  w-full h-[100vh] ">
+                <div class="container">
+                    <h1 class="contactus-heading">Contact Us</h1>
+                    <div class="contactus-form-container">
+                        <form class="form" action="">
+                            <div class="formfield-container">
+                                <input class="formfield" type="text" name="name" id="" placeholder="Enter your name" />
+                                <input class="formfield" type="email" name="email" id=""
+                                    placeholder="Enter your email address" />
+
+                                <input class="formfield" type="text" name="subject" id=""
+                                    placeholder="Enter your subject" />
+
+                                <textarea name="message" cols="30" rows="10" id="" class="formfield formfield-textarea"
+                                    placeholder="Type Your Query"></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="btn-pink" id="submit-btn">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>
